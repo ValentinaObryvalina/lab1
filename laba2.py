@@ -37,3 +37,5 @@ if c1 in colors and c2 in colors:
 else:
     print("ошибка")'''
 
+'tjutjutryhrtyh5tyy'
+
