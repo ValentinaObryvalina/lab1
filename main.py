@@ -1,19 +1,26 @@
-'''a=input()
-b=input()
+'''registration():
+    original_password = "admin"
 
-if a==b:
-    print("пароль принят")
-else:
-    print("пароль не принят")'''
+    while True:
+        password = input("введите пароль: ")
+        if password == original_password:
+            return "Пароль принят"
+        else:
+            print("Пароль не принят")'''
 
-'''n = int(input('введите место в плацкартном вагоне: '))
-print()
-if n > 36:
-    print('ваше место - боковое')
-elif n % 2:
-    print('ваше место в купе внизу')
-else:
-    print('ваше место в купе наверху')'''
+'''place_in_train():
+    aside_places = [number for number in range(37, 55)]
+    number_place = int(input("Введите номер места: "))
+    if number_place in aside_places:
+        if number_place // 2 == 0:
+            print("боковое верхнее")
+        else:
+            print("боковое нижнее")
+    else:
+        if number_place // 2 == 0:
+            print("верхнее в купе")
+        else:
+            print("нижнее в купе")'''
 
 '''year = int(input())
 if (year %4 == 0) and (year % 100 != 0) or (year % 400 ==0):
